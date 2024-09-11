@@ -14,6 +14,7 @@ body {
    min-height: 100vh;
    background: #0b1522;
    padding: 0;
+   overflow: hidden;
    
 }
 
@@ -167,6 +168,7 @@ audio {
    cursor: pointer;
    transition: background-color 0.3s ease, color 0.3s ease;
    margin: 0 5px; /* Space between buttons */
+   margin-bottom: 5px;
 }
 
 .audio-button:hover {
@@ -252,4 +254,42 @@ audio {
    border-radius: 50px;
    box-shadow: -10px 10px 90px #f20044;
 }
+.credits {
+   color: white;
+   font-size: 12px;
+   text-align: center;
+   margin-top: 5px; /* Reduce the margin-top to bring it closer to the play button */
+}
 
+/* Responsive Design */
+@media (max-width: 768px) {
+   .container {
+      width: 90%;
+   }
+
+   .flap, .letter {
+      font-size: 16px;
+      padding: 10px;
+   }
+
+   h1 {
+      font-size: 2em;
+   }
+
+   p {
+      font-size: 14px;
+   }
+
+   h5 {
+      font-size: 12px;
+   }
+
+   .audio-container {
+      width: 120px;
+   }
+
+   .audio-button {
+      width: 120px;
+      font-size: 12px;
+   }
+}
