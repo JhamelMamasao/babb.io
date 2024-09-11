@@ -255,7 +255,7 @@ audio {
    box-shadow: -10px 10px 90px #f20044;
 }
 .credits {
-   color: white;
+   color: #f1f1f1;
    font-size: 12px;
    text-align: center;
    margin-top: 5px; /* Reduce the margin-top to bring it closer to the play button */
