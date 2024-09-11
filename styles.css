@@ -256,7 +256,8 @@ audio {
 }
 .credits {
    color: #f1f1f1;
-   font-size: 12px;
+   color: white;
+   font-size: 13px;
    text-align: center;
    margin-top: 5px; /* Reduce the margin-top to bring it closer to the play button */
 }
