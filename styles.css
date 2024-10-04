@@ -36,8 +36,8 @@ body {
 .flap {
    width: 107%;
    height: 50px;
-   background-color: #A020F0;
-   border: 2px solid #A020F0;
+   background-color: #FFC0CB;
+   border: 2px solid #FFC0CB;
    border-bottom: none;
    position: absolute;
    top: 0;
@@ -66,7 +66,7 @@ body {
    width: 100%;
    padding: 20px;
    background-color: #ffffff;
-   border: 2px solid #A020F0;
+   border: 2px solid #FFC0CB;
    border-radius: 10px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
    line-height: 1.6;
@@ -89,7 +89,7 @@ body {
 
 h1 {
    font-size: 2.5em;
-   color: #A020F0;
+   color: #FFC0CB;
    margin-bottom: 20px;
 }
 
@@ -102,12 +102,12 @@ p {
 
 h5 {
    font-size: 14px;
-   color: #A020F0;
+   color: #FFC0CB;
    margin-bottom: 20px;
 }
 
 button {
-   background-color: #A020F0;
+   background-color: #FFC0CB;
    color: white;
    border: none;
    padding: 10px 20px;
@@ -118,14 +118,14 @@ button {
 }
 
 button:hover {
-   background-color: #A020F0;
+   background-color: #FFC0CB;
 }
 
 .audio-container {
    position: fixed;
    bottom: 20px;
    right: 20px;
-   background-color: #A020F0;
+   background-color: #FFC0CB;
    border-radius: 10px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
    padding: 10px;
@@ -161,7 +161,7 @@ audio {
 
 .audio-button {
    background-color: #ffffff;
-   color: #A020F0;
+   color: #FFC0CB;
    border: none;
    padding: 10px;
    width: 150px;
@@ -175,7 +175,7 @@ audio {
 
 .audio-button:hover {
    background-color: #f1f1f1;
-   color: #A020F0;
+   color: #FFC0CB;
 }
 
 .flower-container {
